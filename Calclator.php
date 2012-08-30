@@ -12,7 +12,13 @@ class Calclator
         return $a - $b;
     }
 
-    function square($a)
+    function mulitiply ( $a, $b )
+	{
+        return $a/$b;
+
+	}
+
+	function square($a)
     {
         return $a * $a;
     }
